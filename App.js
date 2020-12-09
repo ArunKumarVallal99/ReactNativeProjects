@@ -3,11 +3,11 @@ import {StyleSheet,Text,View,TextInput,TouchableOpacity} from 'react-native';
   
 export default class App extends Component {  
     
-      state = {  
-            password: '',  
-            isPasswordVisible: true,  
-            toggleText: 'Show',  
-        };  
+    state = {  
+      password: '',  
+      isPasswordVisible: true,  
+      toggleText: 'Show',  
+    };  
      
     handled = () => {  
         const { isPasswordVisible } = this.state;  
